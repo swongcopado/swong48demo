@@ -457,6 +457,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>BRGDemoOne__c.BRGDemoOneFieldOne__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>BRGDemoOne__c.BRGDemoOneFieldTwo__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>BRG_Custom_Object__c.BRG_Custom_Field__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -3598,6 +3608,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>AuthorizationFormText-Authorization Form Text Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>BRGDemoOne__c-BRGDemoOne Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>BRG_Custom_Object__c-BRG Custom Object Layout</layout>
