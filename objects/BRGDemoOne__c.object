@@ -143,6 +143,7 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
+    <description>Demo object for BRG Pipeline</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
@@ -155,7 +156,9 @@
     <externalSharingModel>Private</externalSharingModel>
     <fields>
         <fullName>BRGDemoOneFieldOne__c</fullName>
+        <description>Demo field</description>
         <externalId>false</externalId>
+        <inlineHelpText>Help text for this field</inlineHelpText>
         <label>BRGDemoOneFieldOne</label>
         <length>20</length>
         <required>false</required>
