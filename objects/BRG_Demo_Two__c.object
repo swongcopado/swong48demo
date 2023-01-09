@@ -155,6 +155,7 @@
     <externalSharingModel>Private</externalSharingModel>
     <fields>
         <fullName>Demo_Field_One__c</fullName>
+        <description>Updated to keep the instances alive</description>
         <externalId>false</externalId>
         <label>Demo Field One</label>
         <length>20</length>
