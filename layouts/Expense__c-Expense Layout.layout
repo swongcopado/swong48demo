@@ -24,7 +24,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Reason__c</field>
+                <field>Priority__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
