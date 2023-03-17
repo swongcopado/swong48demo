@@ -60,5 +60,3 @@ documents/*
 #Mac files
 .DS_Store
 
-# Copado config files
-.copado/**
