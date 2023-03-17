@@ -60,3 +60,5 @@ documents/*
 #Mac files
 .DS_Store
 
+# Copado Configuration Files
+.copado/**
