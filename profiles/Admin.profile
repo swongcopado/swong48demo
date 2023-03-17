@@ -1667,6 +1667,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Expense__c.Priority__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Expense__c.Reason__c</field>
         <readable>true</readable>
     </fieldPermissions>
