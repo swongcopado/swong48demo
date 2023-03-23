@@ -5,8 +5,9 @@ public with sharing class ExpenseUtility {
         return 1820;
     }
 
+    /*
     static public Integer quickTodaysTotals() {
         return 9999;
     }
-
+    */
 }
