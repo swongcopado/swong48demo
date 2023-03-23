@@ -9,4 +9,12 @@ public with sharing class ExpenseUtilityTest {
         
     }
 
+    @isTest
+    public static void testQuickTodaysTotals() {
+        Integer expected = 9999;
+        Integer actual = ExpenseUtility.quickTodaysTotals();
+        System.assertEquals(expected, actual, 'total expenses match');
+        
+    }
+
 }
