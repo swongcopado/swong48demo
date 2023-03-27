@@ -10,6 +10,5 @@ public with sharing class ExpenseUtility {
         return 9999;
     }
 
-    // add some dummy code here
     
 }
