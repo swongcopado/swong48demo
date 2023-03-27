@@ -17,7 +17,5 @@ public with sharing class ExpenseUtilityTest {
         System.assertEquals(expected, actual, 'total expenses match');
         
     }
-
-    // add some dummy code here
     
 }
