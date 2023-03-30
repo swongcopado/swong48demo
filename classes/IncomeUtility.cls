@@ -1,7 +1,10 @@
 public with sharing class IncomeUtility {
     // Added a change for demo on 27-Mar-23
+   
     
     public static Contact setDefaultDescription(Contact c) {     
+    
+        // Added this line of code in BAU Dev 1
 
         if (c.Description == null) 
             c.Description = 'Default description';                
@@ -12,7 +15,7 @@ public with sharing class IncomeUtility {
         // Avoid SOQL inside loops
         List<Contact> contacts;
         for (Integer i = 0; i < 2; i++) {
-            contacts = [SELECT Id,FirstName,LastName,Description FROM Contact
+            contacts = [SELECT Id,LastName,FirstName,Description FROM Contact
                         WHERE Contact.FirstName =: c.FirstName AND 
                                 Contact.LastName =: c.LastName];
         }
@@ -46,6 +49,8 @@ public with sharing class IncomeUtility {
             c.Description = 'Do some dummy stuff here';
         }
 
+        // Added this line of code in BAU Dev 1
+                
         return c;        
     }
 

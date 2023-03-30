@@ -3,10 +3,13 @@ public with sharing class IncomeUtilityTest {
     
     // Added a change for demo on 27-Mar-23
 
-    @isTest static void testContactHasDefaultDescription() {       
+    @isTest static void testContactHasDefaultDescription() {   
+        
+        // Added this line of code in BAU Dev 1
+        
         // Perform test
         Test.startTest();
-        Contact con = new Contact(FirstName='Someone',LastName='Out There');
+        Contact con = new Contact(FirstName='Joseph',LastName='Jostar');
         insert con;
         con = IncomeUtility.setDefaultDescription(con);
         Test.stopTest();
@@ -21,6 +24,8 @@ public with sharing class IncomeUtilityTest {
         con = IncomeUtility.setDefaultFirstName(con);
         Test.stopTest();
         System.assertEquals('Default First Name', con.FirstName);
+        
+        // Added this line of code in BAU Dev 1
     }
 
 }
