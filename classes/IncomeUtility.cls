@@ -1,7 +1,9 @@
 public with sharing class IncomeUtility {
-    // Added a change for demo on 27-Mar-23
+    // Added a change for demo on 30-Mar-23
     
     public static Contact setDefaultDescription(Contact c) {     
+    
+        // This change added in Project DEV1
 
         if (c.Description == null) 
             c.Description = 'Default description';                
@@ -45,6 +47,8 @@ public with sharing class IncomeUtility {
             c.LastName = 'Some LastName';
             c.Description = 'Do some dummy stuff here';
         }
+        
+        // This change added in Project DEV1
 
         return c;        
     }

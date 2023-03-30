@@ -143,18 +143,20 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
+    <description>Added a change for demo on 30-Mar-23</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
     <enableLicensing>false</enableLicensing>
     <enableReports>false</enableReports>
-    <enableSearch>false</enableSearch>
+    <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
         <fullName>Amount__c</fullName>
+        <description>Added a change for demo on 30-Mar-23</description>
         <externalId>false</externalId>
         <label>Amount</label>
         <precision>18</precision>
@@ -165,6 +167,7 @@
     </fields>
     <fields>
         <fullName>Date__c</fullName>
+        <description>Added a change for demo on 30-Mar-23</description>
         <externalId>false</externalId>
         <label>Date</label>
         <required>false</required>
@@ -173,6 +176,7 @@
     </fields>
     <fields>
         <fullName>Description__c</fullName>
+        <description>Added a change for demo on 30-Mar-23</description>
         <externalId>false</externalId>
         <label>Description</label>
         <required>false</required>
