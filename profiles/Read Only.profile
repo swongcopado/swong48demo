@@ -1876,6 +1876,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>KeepAliveObject__c.Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Lead.Address</field>
         <readable>true</readable>
@@ -3767,6 +3772,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>InternalOrganizationUnit-Internal Organization Unit Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>KeepAliveObject__c-KeepAliveObject Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Lead-Lead Layout</layout>
