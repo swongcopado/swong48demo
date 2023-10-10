@@ -480,6 +480,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>BRG27__c.BRG27_Email__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>BRGDemoOne__c.BRGDemoOneFieldOne__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -3727,6 +3732,9 @@
         <layout>BRG26__c-BRG26 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>BRG27__c-BRG27 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>BRGDemoOne__c-BRGDemoOne Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4298,6 +4306,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>BRG26__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>BRG27__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
