@@ -465,6 +465,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>BRG24__c.BRG24_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>BRGDemoOne__c.BRGDemoOneFieldOne__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -3703,6 +3708,9 @@
         <layout>AuthorizationFormText-Authorization Form Text Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>BRG24__c-BRG24 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>BRGDemoOne__c-BRGDemoOne Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4247,6 +4255,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>AuthorizationFormText</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>BRG24__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
