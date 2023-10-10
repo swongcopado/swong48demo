@@ -475,6 +475,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>BRG25__c.BRG25_Picklist__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>BRG_Custom_Object__c.BRG_Custom_Field__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -3721,6 +3726,9 @@
         <layout>BRG24__c-BRG24 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>BRG25__c-BRG25 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>BRG_Custom_Object__c-BRG Custom Object Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4271,6 +4279,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>BRG24__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>BRG25__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
