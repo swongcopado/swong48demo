@@ -490,6 +490,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>BRG28__c.BRG28_Amount__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>BRG_Custom_Object__c.BRG_Custom_Field__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -3745,6 +3750,9 @@
         <layout>BRG27__c-BRG27 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>BRG28__c-BRG28 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>BRG_Custom_Object__c-BRG Custom Object Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4322,6 +4330,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>BRG27__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>BRG28__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
